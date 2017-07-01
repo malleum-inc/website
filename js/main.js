@@ -19,6 +19,24 @@
         // Global Variables
         var $window = $(window);
 
+        function rgba(e, alpha) { //e = jQuery element, alpha = background-opacity
+            b = e.css('backgroundColor');
+            e.css('backgroundColor', 'rgba' +
+                b.slice(b.indexOf('('), (b.match(/,/g).length === 2) ? -1 : b.lastIndexOf(',')) + ', ' + alpha + ')');
+        }
+
+        $('.site-navigation-bar').ready(function() {
+            var navBar = $('.site-navigation-bar');
+            rgba(navBar, Math.min(1.0, window.pageYOffset/$('#about').position().top));
+
+            $(window).scroll(function() {
+                console.log(navBar);
+                var opacity = Math.min(1.0, window.pageYOffset/$('#about').position().top);
+                console.log(opacity);
+                rgba(navBar, opacity);
+            });
+        });
+
         /**
          *  Page Loader
          **/
@@ -201,6 +219,17 @@
 
     });
 
+    $("#typed-tagline").ready(function() {
+        new Typed('#typed-tagline', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 40,
+            backSpeed: 40,
+            backDelay: 1000,
+            startDelay: 1500,
+            cursorChar: '_',
+            loop: true
+        });
+    });
 }(window.jQuery, window, document));
 // The global jQuery object is passed as a parameter
 
