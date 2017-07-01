@@ -20,7 +20,7 @@
         var $window = $(window);
 
         function rgba(e, alpha) { //e = jQuery element, alpha = background-opacity
-            b = e.css('backgroundColor');
+            var b = e.css('backgroundColor');
             e.css('backgroundColor', 'rgba' +
                 b.slice(b.indexOf('('), (b.match(/,/g).length === 2) ? -1 : b.lastIndexOf(',')) + ', ' + alpha + ')');
         }
@@ -30,9 +30,7 @@
             rgba(navBar, Math.min(1.0, window.pageYOffset/$('#about').position().top));
 
             $(window).scroll(function() {
-                console.log(navBar);
                 var opacity = Math.min(1.0, window.pageYOffset/$('#about').position().top);
-                console.log(opacity);
                 rgba(navBar, opacity);
             });
         });
