@@ -13,13 +13,24 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 #######################################################
 
 # This is your site title
-title: Sera - OnePage Multi-Purpose Theme
+title: Red Canari
 # Website language
 lang: en-US
-# Header Title
-header-title: Create the <strong>Impossible</strong>
 # Header Tagline
-headter-tagline: We Always
+header-title: red canari
+# Header Title
+header-tagline: we're <span id="typed-tagline"></span>
+
+header-tagline-strings:
+  - red &amp; purple teamers
+  - penetration testers
+  - web app testers
+  - forensicators
+  - reverse engineers
+  - security architects
+  - secure code developers
+  - hackers!^10000
+
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -51,7 +62,7 @@ baseurl:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: sales@redcanari.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -88,11 +99,12 @@ about-widget:
 
 # Google Map JS api
 # This is my api for this template
-key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: Sera Google Map
-map-text-location: Bucharest, Romania
-map-lat: 44.4267674
-map-lng: 26.102538399999958
+key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
+map-text: Red Canari, Inc.
+map-text-location: <hr/>7 Bayview Rd<br/>Ottawa, ON K1Y 2C5<br/>Canada
+map-lat: 45.4096921
+map-lng: -75.7282636
+map-zoom: 15
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
@@ -112,22 +124,35 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-title: We're Hackers
+about-description: <p>The Red Canari team is made up of seasoned security professionals
+                   with over 30 years combined experience in applied InfoSec consulting.
+                   We've played pivotal roles in securing critical information systems across
+                   the public and private sectors.</p>
+                   <p>But what's more is that we're a part of the global InfoSec community,
+                   building and maintaining open source security tools, training tomorrow's cyber-warriors,
+                   and helping mitigate vulnerabilities in commercial and proprietary systems.</p>
+                   <p>We back up our technical and analytical skills with our ability to distill
+                   and communicate technical security concepts into concrete and actionable
+                   recommendations.</p>
 
 
 #####################################
-#############  Features  ############
+#############  Services  ############
 #####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+services-title: Services
+services-description: Loream ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
 
 #
-# Features
+# Services
 #
-features:
+services:
 
 # Feature
+- title: Clean & Unique Design
+  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+  icon: pe-7s-vector
+
 - title: Clean & Unique Design
   description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
   icon: pe-7s-vector
@@ -211,58 +236,58 @@ portfolio:
 
 
 #####################################
-##########  Core Features  ##########
+##########  Core Services  ##########
 #####################################
-core-title: Core Features
+core-title: Core Services
 core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
 
 #
 # Core Features Left
 #
-core-features-left:
+core-services-left:
 
 # Feature
-- name: Creative
+- name: Penetration Testing
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-light
 
 # Feature
-- name: Minimalism
+- name: Red & Purple Teaming
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-drop
 
 # Feature
-- name: Clean Coding
+- name: WebApp Assessments
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-coffee
 
 # Feature
-- name: Friendly
+- name: Secure Code Review
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-smile
 
 #
 # Core Features Right
 #
-core-features-right:
+core-services-right:
 
 # Feature
-- name: Branding
+- name: Secure Architecture
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-wine
 
 # Feature
-- name: Web Design
+- name: Threat Hunting
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-monitor
 
 # Feature
-- name: Graphic Design
+- name: SCADA Testing
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-crop
 
 # Feature
-- name: Photography
+- name: Maltego Development
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-camera
 
