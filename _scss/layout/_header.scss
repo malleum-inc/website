@@ -81,7 +81,8 @@ header.site-header {
 
             &.current-menu-item {
               a {
-                color: $primary;
+                color: $white;
+                font-weight: bolder;
                 position: relative;
 
                 &:before {
@@ -93,7 +94,7 @@ header.site-header {
                   left: 50%;
                   bottom: -10px;
                   transform: translateX(-50%);
-                  background-color: $primary;
+                  background-color: $white;
                 }
               }
             }
@@ -105,7 +106,8 @@ header.site-header {
 
               &:hover,
               &:active {
-                color: $primary;
+                color: $white;
+                text-shadow: 0 0 3px #fff;
               }
 
             }
@@ -170,12 +172,12 @@ header.site-header {
         height: 100%;
         top: 0;
         left: 0;
-        transform: rotate(45deg);
+        border-radius: 50%;
       }
 
       // Stroke
       &:before {
-        border: 1px solid $primary;
+        border: 1px solid $white;
         animation: sera-pulse $animation-arrow-header-time $animation-arrow-header-type infinite alternate;
       }
 
