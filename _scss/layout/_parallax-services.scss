@@ -6,7 +6,7 @@
  *
  **/
 
-section.parallax-features-section {
+section.parallax-services-section {
   position: relative;
   padding-bottom: 50px;
   color: $light-blue;
@@ -22,8 +22,8 @@ section.parallax-features-section {
     }
   }
 
-  // Section Features
-  .section-features {
+  // Section services
+  .section-services {
     margin-top: 80px;
 
     // Phone
@@ -33,7 +33,7 @@ section.parallax-features-section {
       }
     }
 
-    // Floating Features
+    // Floating services
     .text-left {
       margin-top: 10%;
 
@@ -52,8 +52,8 @@ section.parallax-features-section {
       }
     }
 
-    // Feature
-    .feature {
+    // service
+    .service {
       display: block;
       width: 100%;
       margin-bottom: 30px;
@@ -94,7 +94,7 @@ section.parallax-features-section {
         transition: all $transition-links $transition-links-type;
       }
 
-      // Feature Hover
+      // service Hover
       &:hover {
 
         p {

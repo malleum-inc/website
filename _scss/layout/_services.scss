@@ -1,19 +1,19 @@
 /**
  *
- *  Features Section Style
+ *  services Section Style
  *
  *  @package gleesik_layout
  *
  **/
 
-section.features-section {
+section.services-section {
 
-  .features {
+  .services {
     margin-top: 80px;
   }
 
-  // Feature
-  .feature {
+  // service
+  .service {
 
     @media (max-width: 992px) {
       margin-bottom: 80px;
@@ -51,7 +51,7 @@ section.features-section {
       }
     }
 
-    // Feature Content
+    // service Content
     .content {
 
       h3 {
