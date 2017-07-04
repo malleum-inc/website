@@ -10,6 +10,7 @@
 (function ($, window, document) {
 
     // The $ is now locally scoped
+    $.fn.exists = function(fn) { if ($(this).length) fn(); };
 
     // Listen for the jQuery ready event on the document
     $(function () {
@@ -25,12 +26,12 @@
                 b.slice(b.indexOf('('), (b.match(/,/g).length === 2) ? -1 : b.lastIndexOf(',')) + ', ' + alpha + ')');
         }
 
-        $('.site-navigation-bar').ready(function() {
+        $('.site-navigation-bar').exists(function() {
             var navBar = $('.site-navigation-bar');
-            rgba(navBar, Math.min(1.0, window.pageYOffset/$('#about').position().top));
+            rgba(navBar, Math.min(1.0, window.pageYOffset/$('.site-header').height()));
 
             $(window).scroll(function() {
-                var opacity = Math.min(1.0, window.pageYOffset/$('#about').position().top);
+                var opacity = Math.min(1.0, window.pageYOffset/$('.site-header').height());
                 rgba(navBar, opacity);
             });
         });
@@ -53,7 +54,7 @@
          **/
         var $body = $('body');
         var $nav_menu = $('.navigation-bar');
-        var $nav_menu_link = $('#navMenu ul li a');
+        var $nav_menu_link = $('#navMenu').find('ul li a');
         var $toggle_menu_button = $('.navTrigger');
 
         // Navigation Menu Link
@@ -105,7 +106,7 @@
             $data_filters = $(this).data('filter');
 
             // Hide All Portfolio Items
-            if ($data_filters == 'all') {
+            if ($data_filters === 'all') {
                 $portfolio_grid_item.addClass('visible');
             }
             else { // Show Portfolio Items from filter
@@ -183,7 +184,9 @@
             }
 
             // Portfolio Reveal Images
-            revealItem($portfolio_grid, $portfolio_grid_item);
+            $portfolio_grid.exists(function() {
+                revealItem($portfolio_grid, $portfolio_grid_item);
+            });
 
         });
 
@@ -203,7 +206,8 @@
          *  Smooth Scrolling for Links
          **/
         $('a[href*="#"]:not([href="#"])').on('click', function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
+                location.hostname === this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
@@ -217,7 +221,7 @@
 
     });
 
-    $("#typed-tagline").ready(function() {
+    $("#typed-tagline").exists(function() {
         new Typed('#typed-tagline', {
             stringsElement: '#typed-strings',
             typeSpeed: 40,
