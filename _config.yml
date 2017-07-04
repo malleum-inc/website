@@ -4,7 +4,7 @@
 #
 
 # Information for compile
-exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
+exclude: [".git", ".gitignore", "node_modules", "gulpfile.js", "package.json", "README.md"]
 
 #######################################################
 #######################################################
