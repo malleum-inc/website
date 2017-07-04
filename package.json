@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://gleesik.ro/"
   },
-  "homepage": "https://gleesik.ro/"
+  "homepage": "https://gleesik.ro/",
+  "dependencies": {
+    "jquery-circle-progress": "^1.2.2"
+  }
 }
