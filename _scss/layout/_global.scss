@@ -191,7 +191,7 @@ blockquote {
   }
 
   &:before {
-    content: '\0022';
+    content: '"';
     position: absolute;
     font-size: 7em;
     font-weight: 900;

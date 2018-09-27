@@ -2680,7 +2680,6 @@ input, textarea, button {
   outline: 0;
   color: #5e5e5e;
   border: 1px solid #bdc3c7;
-  background: rgba(255, 255, 255, 0.1);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -2804,13 +2803,14 @@ ul.tag-cloud-box li a:hover {
   display: inline-block;
   width: auto;
   max-width: 100%;
-  color: #b3212c;
-  border: 2px solid #b3212c;
+  background-color: #b3212c;
+  border: none;
   padding: 0.8em 2em;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
+  color: #fff;
 }
 
 .button.button-focus, button.button-focus {
@@ -2821,7 +2821,7 @@ ul.tag-cloud-box li a:hover {
 .button:hover, .button:active, button:hover, button:active {
   color: #fff;
   border-color: #e05a64;
-  background-color: #e05a64;
+  background-color: #881921;
 }
 
 .button-cta {
@@ -3031,7 +3031,7 @@ blockquote small {
 }
 
 blockquote:before {
-  content: '\0022';
+  content: '"';
   position: absolute;
   font-size: 7em;
   font-weight: 900;
@@ -4728,7 +4728,7 @@ section.team-section .team-members-container .team-member:hover {
 }
 
 section.team-section .team-members-container .team-member:hover .img-wrapper:before, section.team-section .team-members-container .team-member:hover .img-wrapper:after {
-  opacity: 1;
+  opacity: 0;
 }
 
 /**
@@ -4920,36 +4920,6 @@ section.contact-section .form-container {
 
 section.contact-section .form-container form.contact-form .col-md-6, section.contact-section .form-container form.contact-form .col-md-12 {
   margin-bottom: 30px;
-}
-
-section.contact-section .form-container form.contact-form input, section.contact-section .form-container form.contact-form textarea {
-  color: #fff;
-}
-
-section.contact-section .form-container form.contact-form input:hover, section.contact-section .form-container form.contact-form input:active, section.contact-section .form-container form.contact-form textarea:hover, section.contact-section .form-container form.contact-form textarea:active {
-  color: #fff;
-  border-color: #b3212c;
-  background: rgba(179, 33, 44, 0.25);
-}
-
-section.contact-section .form-container form.contact-form input:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form input:active::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:active::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: #fff;
-}
-
-section.contact-section .form-container form.contact-form input:hover::-moz-placeholder, section.contact-section .form-container form.contact-form input:active::-moz-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-moz-placeholder, section.contact-section .form-container form.contact-form textarea:active::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #fff;
-}
-
-section.contact-section .form-container form.contact-form input:hover:-ms-input-placeholder, section.contact-section .form-container form.contact-form input:active:-ms-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover:-ms-input-placeholder, section.contact-section .form-container form.contact-form textarea:active:-ms-input-placeholder {
-  /* IE 10+ */
-  color: #fff;
-}
-
-section.contact-section .form-container form.contact-form input:hover:-moz-placeholder, section.contact-section .form-container form.contact-form input:active:-moz-placeholder, section.contact-section .form-container form.contact-form textarea:hover:-moz-placeholder, section.contact-section .form-container form.contact-form textarea:active:-moz-placeholder {
-  /* Firefox 18- */
-  color: #fff;
 }
 
 section.contact-section .form-container form.contact-form .form-action {

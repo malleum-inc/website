@@ -9,10 +9,10 @@
   "author": "Daniel Costrășel",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2",
     "browser-sync": "^2.13.0",
-    "gulp-autoprefixer": "^3.1.0"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.3.2"
   },
   "repository": {
     "type": "template",
@@ -29,6 +29,8 @@
   },
   "homepage": "https://gleesik.ro/",
   "dependencies": {
-    "jquery-circle-progress": "^1.2.2"
+    "jekyll": "^3.0.0-beta1",
+    "jquery-circle-progress": "^1.2.2",
+    "node-sass": "^4.9.3"
   }
 }

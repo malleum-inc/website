@@ -19,17 +19,10 @@ lang: en-US
 # Header Tagline
 header-title: red canari
 # Header Title
-header-tagline: we're <span id="typed-tagline"></span>
+header-tagline: '<span id="typed-tagline"></span>'
 
 header-tagline-strings:
-  - red &amp; purple teamers
-  - penetration testers
-  - web app testers
-  - forensicators
-  - reverse engineers
-  - security architects
-  - secure code developers
-  - hackers!^10000
+  - research-driven hackers.^1000<br/>trusted security advisors^5000
 
 
 ####################################
@@ -71,12 +64,8 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
-twitter: '#'
-google-plus: '#'
-vimeo: '#'
+twitter: 'https://twitter.com/redcanari'
+linkedin: 'https://www.linkedin.com/company/redcanari/'
 
 #########################
 ######   Widgets   ######
@@ -355,56 +344,68 @@ team-description: Nulla a tellus at turpis gravida congue non interdum et malesu
 team:
 
 # Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
+- name: Tony Kanjirappally
+  tagline: Managing Partner, CEO
+  avatar: tony.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/tonykanjirappally
+
+# Team Member
+- name: Nadeem Douba
+  tagline: Managing Partner, CTO
+  avatar: nadeem.jpg
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/nadeem-douba
+
+# Team Member
+- name: David Mussington
+  tagline: Director, Cyber Risk Management Programmes
+  avatar: david.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/davidmussington/
+
+# Team Member
+- name: Philip Elsas
+  tagline: Director, Assurance and Audit
+  avatar: philip.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/philipelsas
+
+# Team Member
+- name: Dan Lesage
+  tagline: Director, Security Engineering
   avatar: avatar-01.jpg
 
   # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+  linkedin: https://www.linkedin.com/in/danlesage/
 
 # Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
+- name: Ahmed Shah
+  tagline: Director, Security R&amp;D
+  avatar: avatar-01.jpg
 
   # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
 
 # Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
+- name: Mauricio Morgado
+  tagline: Director, Sales (North America)
+  avatar: mauricio.png
 
   # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+  linkedin: https://www.linkedin.com/in/mauricio-morgado/
 
 # Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
+- name: Fred Mazzini
+  tagline: Director, Sales (South America)
+  avatar: fred.png
 
   # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+  linkedin: https://www.linkedin.com/in/fredmazzini/
 
 
 #####################################
@@ -448,13 +449,14 @@ plan-ultimate-url: '#'
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-description: Secure your enterprise today!
+contact-success: Thank you for contacting us! A member of our team will reach out to you shortly.
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2016
+footer-description: Research-driven Hackers. Trusted Advisors
+footer-copyright-text: Red Canari
+footer-copyright-url: https://www.redcanari.com/
+footer-copyright-year: 2018
