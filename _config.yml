@@ -130,7 +130,9 @@ about-description: <p>The Red Canari team is made up of seasoned security profes
 #############  Services  ############
 #####################################
 services-title: Services
-services-description: Loream ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+services-description: <p>Real security works in the face of real-world adversaries targeting your organization. Which is where we come in. We think like hackers – and act like them – to disclose discreet dangers to your organization.<p>
+                      <p>Our research-based and intelligence-driven methodology is what equips us to discover the latest, most sophisticated vulnerabilities and test the security needs of industries like healthcare, finance and defense.<p>
+                      <p>So it's no surprise we're trusted by clients who need to meet the highest standards of security compliance. And why we regularly present at the world's biggest security conferences.<p>
 
 #
 # Services
@@ -138,23 +140,34 @@ services-description: Loream ipsum dolor sit amet, consectetur adipiscing elit. 
 services:
 
 # Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-vector
-
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-vector
+- title: Strategy & Governance
+  description: Cybersecurity requires timely, cross-functional and cross-organizational responses, aligned and consistent with the emergence of increasingly severe cyber risks. Red Canari helps organizations to create the strategy and implement the framework required to effectively manage cyber risk. Our experts work with organizations to align their security capabilities with their strategic imperatives.
+  icon: pe-7s-culture
 
 # Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-help2
+- title: Security Architecture
+  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and user newer technologies.
+  icon: pe-7s-network
 
 # Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-airplay
+- title: Audit & Assessment
+  description: Think you're prepared for an attack? We'll find out. For organizations with a security policy and infrastructure already in place, our 365 Red Team thinks and acts like attackers, continually putting your team and incident response protocols to the test so they'll be ready when a real threat comes. We research the most sophisticated attack techniques being used today to keep your organization safe.
+  icon: pe-7s-hammer
+
+# Feature
+- title: Operational Technology Assessments
+  description: Advances in modern control systems like the Smart Grid has brought great benefits but at a cost from a security perspective. With the confluence of IT and OT systems and inter-system communication, vendors, asset owners/operators, and the population in general are at a greater risk of compromise. To minimize this risk, Red Canari experts conduct including highly technical offensive testing to minimize vulnerabilities before attackers can exploit critical infrastructures globally.
+  icon: pe-7s-power
+
+# Feature
+- title: Training
+  description: Training of executive managers and key staff in cybersecurity strategy principles and risk management standards is fundamental. Operational skills required for program managers and technical staff are an enduring requirement and should be optimized to meet the strategic requirements of the enterprise plan and changes in the risk environment. Red Canari delivers cybersecurity skills – training aligned to every position in an organization, and generalized cybersecurity best practice guidance for all staff in operational (not primarily IT) areas and management disciplines.
+  icon: pe-7s-notebook
+
+# Feature
+- title: Digital Forensics & Incident Response
+  description: In today's highly interconnected global economy, risk is ubiquitous. Some of the risk that organizations face can be anticipated, managed and mitigated; but several catastrophic, hard-to-predict events are occurring ever more frequently. Red Canari DFIR program enhance the resilience of an organization to high-impact cyber crises. We support you with the decision-making protocols and appropriate responses required in the wake of a cyber emergency, to help limit business interruption and the associated costs.
+  icon: pe-7s-search
 
 
 #####################################
@@ -227,8 +240,8 @@ portfolio:
 #####################################
 ##########  Core Services  ##########
 #####################################
-core-title: Core Services
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-title: We look where others don't
+core-description: We will help you identify its weaknesses, pre-emptively remediate them and reduce the risk of being compromised by real-world threats.
 
 #
 # Core Features Left
@@ -236,24 +249,24 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-services-left:
 
 # Feature
-- name: Penetration Testing
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-light
+- name: Virtual CSO
+  description: Get guidance on GRC & Policy Implementation.
+  icon: pe-7s-culture
 
 # Feature
-- name: Red & Purple Teaming
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
+- name: Digital Forensics
+  description: Incident response and investigation.
+  icon: pe-7s-search
 
 # Feature
-- name: WebApp Assessments
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-coffee
+- name: Cyber Training Program
+  description: Train your team to operate securely.
+  icon: pe-7s-notebook
 
 # Feature
-- name: Secure Code Review
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
+- name: Operational Technology
+  description: Assess your Industrial systems.
+  icon: pe-7s-power
 
 #
 # Core Features Right
@@ -261,24 +274,24 @@ core-services-left:
 core-services-right:
 
 # Feature
-- name: Secure Architecture
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
+- name: 365 RED TEAM
+  description: Simulate sophisticated real-world attacks.
+  icon: pe-7s-look
 
 # Feature
-- name: Threat Hunting
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Enterprise Penetration Test
+  description: Assess security from every angle.
+  icon: pe-7s-shield
+
+# Feature
+- name: Application Assessment
+  description: Identify vulnerabilities in your applications.
   icon: pe-7s-monitor
 
 # Feature
-- name: SCADA Testing
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
-
-# Feature
-- name: Maltego Development
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
+- name: Secure Code Assessment
+  description: Embed security directly into your software development cycle.
+  icon: pe-7s-tools
 
 
 #####################################
@@ -336,7 +349,7 @@ blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 ############### Team ################
 #####################################
 team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-description: The Red Canari team is made up of seasoned security professionals. We’ve played pivotal roles in securing critical information systems across the public and private sectors.
 
 #
 # Team Members
@@ -375,21 +388,21 @@ team:
   # Social Links
   linkedin: https://www.linkedin.com/in/philipelsas
 
-# Team Member
-- name: Dan Lesage
-  tagline: Director, Security Engineering
-  avatar: avatar-01.jpg
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/danlesage/
-
-# Team Member
-- name: Ahmed Shah
-  tagline: Director, Security R&amp;D
-  avatar: avatar-01.jpg
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
+## Team Member
+#- name: Dan Lesage
+#  tagline: Director, Security Engineering
+#  avatar: avatar-01.jpg
+#
+#  # Social Links
+#  linkedin: https://www.linkedin.com/in/danlesage/
+#
+## Team Member
+#- name: Ahmed Shah
+#  tagline: Director, Security R&amp;D
+#  avatar: avatar-01.jpg
+#
+#  # Social Links
+#  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
 
 # Team Member
 - name: Mauricio Morgado

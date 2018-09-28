@@ -19,9 +19,9 @@
         </div>
 
         <!-- services -->
-        <div class="row services">
+        {% for service in site.services %}
+        {%cycle '<div class="row services">', '', ''%}
 
-            {% for service in site.services %}
 
             <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 service">
                 <div class="icon parent">
@@ -37,9 +37,9 @@
                 </div>
             </div>
 
-            {% endfor %}
 
-        </div>
+        {%cycle '', '', '</div>'%}
+        {% endfor %}
 
     </div>
 </section>
