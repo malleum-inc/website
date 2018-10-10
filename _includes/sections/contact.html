@@ -20,6 +20,11 @@
             <!-- Section Content -->
             <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
                 <p id="subscribe-result">{{ site.contact-description }}</p>
+                <p>Drop us a line here or via email at
+                    <button style="padding: 5px; border-radius: 5px;" onclick="window.open('mailto:'+reverseString('{{ site.email | split: "" | reverse | join: ""}}')+'?subject={{ site.email_subject | url_encode | replace: "+", " " }}', '_self')">
+                        <script>document.write(reverseString('{{ site.email | split: "" | reverse | join: ""}}'))</script>
+                    </button>
+                </p>
             </div>
 
         </div>

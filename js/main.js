@@ -39,9 +39,9 @@
         /**
          *  Page Loader
          **/
-        setTimeout(function () {
-            $('.page-loader').addClass('load-complete');
-        }, 1500);
+        // setTimeout(function () {
+        //     $('.page-loader').addClass('load-complete');
+        // }, 0);
 
         /**
          *  Parallax with Scrollax.js - Initialization
@@ -257,15 +257,21 @@
     });
 
     $("#typed-tagline").exists(function() {
-        new Typed('#typed-tagline', {
-            stringsElement: '#typed-strings',
-            typeSpeed: 40,
-            backSpeed: 40,
-            backDelay: 1000,
-            startDelay: 1500,
+        new TypeIt('#typed-tagline', {
+            speed: 50,
+            autoStart: false,
             cursorChar: '_',
-            loop: false
+            nextStringDelay: 1000
         });
+        // new TypeIt('#typed-tagline', {
+        //     stringsElement: '#typed-strings',
+        //     typeSpeed: 40,
+        //     backSpeed: 40,
+        //     backDelay: 1000,
+        //     startDelay: 1500,
+        //     cursorChar: '_',
+        //     loop: false
+        // });
     });
 }(window.jQuery, window, document));
 // The global jQuery object is passed as a parameter

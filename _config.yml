@@ -19,10 +19,7 @@ lang: en-US
 # Header Tagline
 header-title: red canari
 # Header Title
-header-tagline: '<span id="typed-tagline"></span>'
-
-header-tagline-strings:
-  - research-driven hackers.^1000<br/>trusted security advisors^5000
+header-tagline: '<div style="height: 2em"><span id="typed-tagline">research-driven hackers.<br/>trusted security advisors</span></div>'
 
 
 ####################################
@@ -56,6 +53,7 @@ baseurl:
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
 email: sales@redcanari.com
+email_subject: We're interested in your services!
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
