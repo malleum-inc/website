@@ -146,7 +146,7 @@ services:
 
 # Feature
 - title: Security Architecture
-  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and user newer technologies.
+  description: Today, old boundaries of inside versus outside, or trusted versus untrusted do not apply. Red Canari experts help build and maintain an up-to-date and truly defensible security architecture by leveraging all your current infrastructure, reconfiguring the devices you already own, and implementing newer technologies.
   icon: pe-7s-network
 
 # Feature
@@ -156,7 +156,7 @@ services:
 
 # Feature
 - title: Operational Technology Assessments
-  description: Advances in modern control systems like the Smart Grid has brought great benefits but at a cost from a security perspective. With the confluence of IT and OT systems and inter-system communication, vendors, asset owners/operators, and the population in general are at a greater risk of compromise. To minimize this risk, Red Canari experts conduct including highly technical offensive testing to minimize vulnerabilities before attackers can exploit critical infrastructures globally.
+  description: Advances in modern control systems like the Smart Grid have brought great benefits but at a cost from a security perspective. With the confluence of IT and OT systems and increased inter-system communication, vendors, asset owners and operators, and the general population are all at a greater risk of compromise. To minimize this risk, Red Canari experts conduct security assessments including highly technical offensive testing to minimize vulnerabilities before attackers can exploit critical infrastructures critical to the functioning of modern society.
   icon: pe-7s-power
 
 # Feature
