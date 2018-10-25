@@ -365,7 +365,7 @@ team:
 # Team Member
 - name: Nadeem Douba
   tagline: Managing Partner, CTO
-  avatar: nadeem.jpg
+  avatar: nadeem.png
 
   # Social Links
   linkedin: https://www.linkedin.com/in/nadeem-douba
@@ -395,12 +395,12 @@ team:
 #  linkedin: https://www.linkedin.com/in/danlesage/
 #
 ## Team Member
-#- name: Ahmed Shah
-#  tagline: Director, Security R&amp;D
-#  avatar: avatar-01.jpg
-#
-#  # Social Links
-#  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
+- name: Ahmed Shah
+  tagline: Director, Security R&amp;D
+  avatar: ahmed.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
 
 # Team Member
 - name: Mauricio Morgado
