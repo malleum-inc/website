@@ -379,6 +379,14 @@ team:
   linkedin: https://www.linkedin.com/in/davidmussington/
 
 # Team Member
+- name: Dan Lesage
+  tagline: Director, Engineering
+  avatar: dan.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/philipelsas
+
+# Team Member
 - name: Philip Elsas
   tagline: Director, Assurance and Audit
   avatar: philip.png
