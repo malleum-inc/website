@@ -242,8 +242,7 @@ table {
 }
 
 .circle {
-  -webkit-border-radius: 120%;
-          border-radius: 120%;
+  border-radius: 120%;
 }
 
 .hide {
@@ -2338,8 +2337,7 @@ table {
 .pe-border {
   padding: .2em .25em .15em;
   border: solid 0.08em #eeeeee;
-  -webkit-border-radius: .1em;
-          border-radius: .1em;
+  border-radius: .1em;
 }
 
 .pull-right {
@@ -3089,8 +3087,7 @@ blockquote:before {
   background: rgba(179, 33, 44, 0.2);
   width: 100%;
   height: 100%;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 
 .page-loader .load-icon:before {
@@ -3308,8 +3305,7 @@ header.site-header .arrow-down-section .arrow-down:before, header.site-header .a
   height: 100%;
   top: 0;
   left: 0;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 
 header.site-header .arrow-down-section .arrow-down:before {
@@ -3777,8 +3773,7 @@ aside.site-sidebar .categories-widget .widget-content ul.categories-box li a .ca
   float: right;
   margin-top: -3px;
   padding: 5px 6px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   background: #f4f8f9;
   font-size: 0.6875rem;
   -webkit-transition: color, background 300ms ease-in-out;
@@ -3956,8 +3951,7 @@ section.portfolio-section .filter-menu-wrapper .filter-menu {
   display: block;
   width: 100%;
   background-color: #f4f8f9;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   letter-spacing: normal;
   text-align: center;
 }
@@ -4285,8 +4279,7 @@ section.testimonials-section .client-testimonial .testimonial-face .face {
 }
 
 section.testimonials-section .client-testimonial .testimonial-face .face img {
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
 }
 
 section.testimonials-section .client-testimonial .testimonial-face .info h3.name {
@@ -4306,8 +4299,7 @@ section.testimonials-section .client-testimonial .testimonial-quote {
   width: calc(100% - 30px);
   padding: 30px 12%;
   margin: 40px 15px 0 15px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   background: #e3e9ed;
 }
 
@@ -4391,8 +4383,7 @@ section.testimonials-section .owl-theme .owl-controls .owl-buttons div {
   margin: 5px;
   padding: 5px 10px;
   font-size: 0.85rem;
-  -webkit-border-radius: 30px;
-          border-radius: 30px;
+  border-radius: 30px;
   background: #bdc3c7;
   opacity: 0.5;
 }
@@ -4407,8 +4398,7 @@ section.testimonials-section .owl-theme .owl-controls .owl-page span {
   width: 30px;
   height: 5px;
   margin: 20px 4px 10px 4px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   background: #bdc3c7;
 }
 

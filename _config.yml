@@ -411,20 +411,20 @@ team:
   linkedin: https://www.linkedin.com/in/ahmedshahbeng/
 
 # Team Member
-- name: Mauricio Morgado
+- name: Matthew Diedrick
   tagline: Director, Sales (North America)
-  avatar: mauricio.png
+  avatar: matthew.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/in/mauricio-morgado/
+  linkedin: https://www.linkedin.com/in/matthew-diedrick-b2087a185/
 
 # Team Member
-- name: Fred Mazzini
-  tagline: Director, Sales (South America)
-  avatar: fred.png
+- name: Rutvik Gajjar
+  tagline: Security Analyst
+  avatar: rutvik.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/in/fredmazzini/
+  linkedin: https://www.linkedin.com/in/rutvik-gajjar-007/
 
 
 #####################################
