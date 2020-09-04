@@ -31,7 +31,7 @@
   "dependencies": {
     "jekyll": "^3.0.0-beta1",
     "jquery-circle-progress": "^1.2.2",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "typeit": "^5.10.7"
   }
 }
