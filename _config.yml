@@ -403,14 +403,6 @@ team:
   # Social Links
   linkedin: https://www.linkedin.com/in/arushi-gautam-1171b0157/
 
-## Team Member
-- name: Ahmed Shah
-  tagline: Director, Security R&amp;D
-  avatar: ahmed.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
-
 # Team Member
 - name: Delon Young
   tagline: Director, Sales (Americas)
@@ -419,6 +411,14 @@ team:
   # Social Links
   linkedin: https://www.linkedin.com/in/delon-young/
 
+## Team Member
+- name: Ahmed Shah
+  tagline: Security Analyst
+  avatar: ahmed.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/ahmedshahbeng/
+
 # Team Member
 - name: Rutvik Gajjar
   tagline: Security Analyst
@@ -426,6 +426,14 @@ team:
 
   # Social Links
   linkedin: https://www.linkedin.com/in/rutvik-gajjar-007/
+  
+# Team Member
+- name: Harsimran Kanwar
+  tagline: Security Analyst
+  avatar: harsimran.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/harsimran-kanwar-a15338186/
   
 
 
