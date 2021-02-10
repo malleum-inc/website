@@ -372,12 +372,20 @@ team:
   linkedin: https://www.linkedin.com/in/nadeem-douba
 
 # Team Member
-# - name: David Mussington
-#   tagline: Director, Cyber Risk Management Programmes
-#   avatar: david.png
+- name: Chris Sumner
+  tagline: Director, Cyber Risk Management Programmes
+  avatar: chris.png
 
   # Social Links
-#   linkedin: https://www.linkedin.com/in/davidmussington/
+  linkedin: https://www.linkedin.com/in/suggy/
+
+# Team Member
+- name: Andrew Fisk
+  tagline: Director, Cyber Risk Management Programmes
+  avatar: andrew.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/andrew-fisk-cyber-security-advisor/
 
 # Team Member
 - name: Dan Lesage
@@ -388,21 +396,13 @@ team:
   linkedin: https://www.linkedin.com/in/danlesage/
 
 # Team Member
-- name: Philip Elsas
-  tagline: Director, Assurance and Audit
-  avatar: philip.png
+- name: Arushi Gautam
+  tagline: Human Resources & Administrative Associate
+  avatar: arushi.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/in/philipelsas
+  linkedin: https://www.linkedin.com/in/arushi-gautam-1171b0157/
 
-## Team Member
-#- name: Dan Lesage
-#  tagline: Director, Security Engineering
-#  avatar: avatar-01.jpg
-#
-#  # Social Links
-#  linkedin: https://www.linkedin.com/in/danlesage/
-#
 ## Team Member
 - name: Ahmed Shah
   tagline: Director, Security R&amp;D
@@ -427,13 +427,6 @@ team:
   # Social Links
   linkedin: https://www.linkedin.com/in/rutvik-gajjar-007/
   
-# Team Member
-- name: Arushi Gautam
-  tagline: Human Resources & Administrative Associate
-  avatar: arushi.png
-
-  # Social Links
-  linkedin: https://www.linkedin.com/in/arushi-gautam-1171b0157/
 
 
 #####################################
