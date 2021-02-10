@@ -89,9 +89,9 @@ about-widget:
 # This is my api for this template
 key-api: AIzaSyA0zIyvvECoBQirE2dTB-ugNAX8oEDXl_w
 map-text: Red Canari, Inc.
-map-text-location: <hr/>7 Bayview Rd<br/>Ottawa, ON K1Y 3B5<br/>Canada
-map-lat: 45.4096921
-map-lng: -75.7282636
+map-text-location: <hr/>116 Albert Street, Suite 300<br/>Ottawa, ON K1P 5G3<br/>Canada
+map-lat: 45.4213791
+map-lng: -75.6989455
 map-zoom: 15
 
 # Enter your Mailchimp User ID and Campaign ID
