@@ -372,12 +372,12 @@ team:
   linkedin: https://www.linkedin.com/in/nadeem-douba
 
 # Team Member
-- name: David Mussington
-  tagline: Director, Cyber Risk Management Programmes
-  avatar: david.png
+# - name: David Mussington
+#   tagline: Director, Cyber Risk Management Programmes
+#   avatar: david.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/in/davidmussington/
+#   linkedin: https://www.linkedin.com/in/davidmussington/
 
 # Team Member
 - name: Dan Lesage
