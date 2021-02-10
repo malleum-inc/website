@@ -410,6 +410,14 @@ team:
 
   # Social Links
   linkedin: https://www.linkedin.com/in/delon-young/
+  
+## Team Member
+- name: Andrew Klaus
+  tagline: Security Analyst
+  avatar: andrewk.png
+
+  # Social Links
+  linkedin: https://www.linkedin.com/in/klausandrew/
 
 ## Team Member
 - name: Ahmed Shah
