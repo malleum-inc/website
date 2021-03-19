@@ -372,20 +372,20 @@ team:
   linkedin: https://www.linkedin.com/in/nadeem-douba
 
 # Team Member
-- name: Chris Sumner
-  tagline: Director, Cyber Risk Management Programmes
-  avatar: chris.png
+#- name: Chris Sumner
+#  tagline: Director, Cyber Risk Management Programmes
+#  avatar: chris.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/in/suggy/
+#  linkedin: https://www.linkedin.com/in/suggy/
 
 # Team Member
-- name: Andrew Fisk
-  tagline: Director, Cyber Risk Management Programmes
-  avatar: andrew.png
+#- name: Andrew Fisk
+#  tagline: Director, Cyber Risk Management Programmes
+#  avatar: andrew.png
 
   # Social Links
-  linkedin: https://www.linkedin.com/in/andrew-fisk-cyber-security-advisor/
+#  linkedin: https://www.linkedin.com/in/andrew-fisk-cyber-security-advisor/
 
 # Team Member
 - name: Dan Lesage
