@@ -380,12 +380,12 @@ team:
 #  linkedin: https://www.linkedin.com/in/suggy/
 
 # Team Member
-#- name: Andrew Fisk
-#  tagline: Director, Cyber Risk Management Programmes
-#  avatar: andrew.png
+- name: Andrew Fisk
+  tagline: Director, Cyber Risk Management Programmes
+  avatar: andrew.png
 
   # Social Links
-#  linkedin: https://www.linkedin.com/in/andrew-fisk-cyber-security-advisor/
+  linkedin: https://www.linkedin.com/in/andrew-fisk-cyber-security-advisor/
 
 # Team Member
 - name: Dan Lesage
