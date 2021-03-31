@@ -347,7 +347,7 @@ blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Leadership Team
+team-title: Meet Our Team
 team-description: The Red Canari team is made up of seasoned security professionals. We’ve played pivotal roles in securing critical information systems across the public and private sectors.
 
 #
@@ -372,12 +372,12 @@ team:
   linkedin: https://www.linkedin.com/in/nadeem-douba
 
 # Team Member
-#- name: Chris Sumner
-#  tagline: Director, Cyber Risk Management Programmes
-#  avatar: chris.png
+- name: Chris Sumner
+  tagline: Director, Cyber Risk Management Programmes
+  avatar: chris.png
 
   # Social Links
-#  linkedin: https://www.linkedin.com/in/suggy/
+  linkedin: https://www.linkedin.com/in/suggy/
 
 # Team Member
 - name: Andrew Fisk
@@ -405,7 +405,7 @@ team:
 
 # Team Member
 - name: Delon Young
-  tagline: Director, Sales (Americas)
+  tagline: Account Executive
   avatar: delon.png
 
   # Social Links
