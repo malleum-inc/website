@@ -9,7 +9,7 @@
   "author": "Daniel Costrășel",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.13.0",
+    "browser-sync": "^2.27.10",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sass": "^2.3.2"
